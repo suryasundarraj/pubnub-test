@@ -14,12 +14,12 @@ void *pubnub_receive(void* p_unused);
 /*********************************************************************************
 
 Function Name 		:	pubnub_receive
-Description			:	Suscribe from the "parkingstatus-req" channel using the 
-						pubnub and The Request is sent fromt the Android App to 
-						get the present status of the parking lots.
-						This is seperate thread along with the main thread.
-Parameters 			:	void
-Return 				:	(void *) when the pubnub connection fails returns -1
+Description		:	Suscribe from the "parkingstatus-req" channel using the 
+				pubnub and The Request is sent fromt the Android App to 
+				get the present status of the parking lots.
+				This is seperate thread along with the main thread.
+Parameters 		:	void
+Return 			:	(void *) when the pubnub connection fails returns -1
 
 *********************************************************************************/
 
@@ -77,10 +77,10 @@ void *pubnub_receive(void* p_unused)
 /*********************************************************************************
 
 Function Name 		:	main
-Description			:	Initalize UART, Thread and publish if any status change
-						in the parking lots
-Parameters 			:	void
-Return 				:	int, if error in the function returns -1 else 0
+Description		:	Initalize UART, Thread and publish if any status change
+				in the parking lots
+Parameters 		:	void
+Return 			:	int, if error in the function returns -1 else 0
 
 *********************************************************************************/
 
